@@ -1,0 +1,151 @@
+/* <!-- tools --> */
+
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+
+
+/* .test{
+    border: 1px dotted pink;
+} */
+
+
+/* <!-- common --> */
+.shadow{
+    text-shadow: 0px 2px rgb(53, 44, 44);
+}
+
+
+
+/* <!-- navbar --> */
+/* case:1 覆蓋原標籤 */
+/* .navbar {
+    border-radius: 0;
+} */
+/* case:1 自訂新標籤 */
+.nav-full{
+    border-radius: 0;
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+/* <!-- mainBanner --> */
+.mainBanner{
+    height: 700px;
+    background:url('../img/background/confortableDesk.jpg');
+    background-position: center;
+    background-size: cover;/* 包滿div */
+    padding:120px 0;/* 上下 左右  將Title往下推*/
+    font-family: 'Gloria Hallelujah', cursive;
+    
+
+}
+
+.title{
+    /* width: 300px; */
+    font-size: 80PX;
+    text-align: center;
+    color: #fff;
+}
+
+.subTitle{
+    font-size: 20PX;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    width: 450px;
+    margin:0 auto;
+}
+
+.appForm{
+    width: 300px;
+    max-width: 80%;/* rwd:低於寬度時，保持80%*/ 
+    margin:40px auto;/* 上下:0 左右:auto 置中  */
+    text-align: center;
+    color: #fff;
+}
+
+/* <!-- break --> */
+.break{
+    height: 30px;
+    background: #333;
+    color: #fff;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+/* <!-- slider --> */
+
+/* <!-- list --> */
+.list{
+    background:url('../img/background/bethany-legg-9248.jpg');
+    background-position: center;
+    background-size: cover;/* 包滿div */
+}
+
+/* <!-- job --> */
+.job{
+    padding: 60px 60px 30px 60px;
+}
+
+/* <!-- pages --> */
+.pages{
+    /* <!--如果無法置中，用div邊界查看，再使用text-align--> */
+    /* margin: 0 auto;  */
+    /* width: 300px; */
+    text-align: center;
+}
+
+/* <!-- copyright --> */
+.copyRight{
+    height: 25px;
+    text-align: center;
+}
+
+/* ============================================= */
+/*<1024*/
+/* ============================================= */
+@media only screen and (max-width: 1024px) {
+
+}
+/* ============================================= */
+/* <768 */
+/* ============================================= */
+@media only screen and (max-width: 768px) {
+    .title{
+        font-size: 35px;
+    }
+    .subTitle{
+        font-size: 10px;
+        width: 300px;
+    }
+    .job{
+        padding: 30px 10px 30px 10px;
+    }
+
+}
+/* ============================================= */
+/* <320 */
+/* ============================================= */
+@media only screen and (max-width: 320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
